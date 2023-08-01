@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9F8F9;
+}
+header{
+    height: 80px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    
+    padding: 5px 20px;
+    border:3px solid #074ec9; /* apper border for items with white color rectangles */
+    border-radius:25px; /* rectanle boxes change to curves */
+    text-transform:uppercase;
+}
+main{
+    height: 1000px; 
+    /* just scroll main not header */
+    padding-top: 100px;
+}
+p{
+    font-weight: bold;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

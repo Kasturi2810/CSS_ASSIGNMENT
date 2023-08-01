@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border:2px solid #109f9c; /* apper border for items with white color rectangles */
+    border-radius:25px; /* rectanle boxes change to curves */
+    text-transform:uppercase;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    min-width:400px;
+    height: 400px;
+    margin: 10px;
+
+}
+.one{
+    background-color:red;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: blue;
+   
+}
+footer{
+    height: 60px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  
